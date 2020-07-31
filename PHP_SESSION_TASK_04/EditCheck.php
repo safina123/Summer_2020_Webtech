@@ -5,7 +5,7 @@
 
 		if(empty($_POST['name']) || empty($_POST['uname']) || empty($_POST['email']) || empty($_POST['gender']) || empty($_POST['day']) || empty($_POST['month']) || empty($_POST['year']))
 		{
-			echo "null submission".'<a href="edit_profile.php"><u>Home</a>';
+			echo "null submission".'<a href="EditProfile.php"><u>Home</a>';
 			#echo "working";
 		}
 		else 
