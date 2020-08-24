@@ -3,6 +3,6 @@
 	if (isset($_POST['submit'])) 
 	{
 		# code...
-		echo $_POST['username'];
+		echo $_POST['name'];
 	}
 ?>
